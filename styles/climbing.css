@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+  }
+
 .shopwindow{
     background:url('../images/Logo\ without\ background.png') no-repeat;
     background-color: #1C1A1B;
@@ -9,12 +13,6 @@
 
 .shopwindow h1{
     font-size: 46px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.shopwindow h6{
-    font-size: 70px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -162,8 +160,4 @@ div.gallery {
     content: "";
     display: table;
     clear: both;
-  }
-
-  body {
-    background-color: black;
-  }
+}
