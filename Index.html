@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
+    
     <!-- This is a special note -->
     <!--NAVIGATION-->
     <div class="w3-top">
@@ -34,22 +35,25 @@
         </div>
     </section>
 
+  <!--PACKAGES HEADING-->
+  <SECTION id=packages class="section w3-blue w3-hover-opacity">
+    <div class="w3-container w3-center">
+        <h1>Activista, Modelo y Administrador</h1> 
+        <p>Nothing on earth consumes a man more quickly than the passion of resentment</p>
+    </div>
+    </SECTION>
     <!--Quién soy-->
     
-    <section id=about class="section">
+    <section id=about class="section w3-blue4">
         <div class="w3-container">
             <div class="w3-row-padding">
                 <div class="w3-col m5">
-                    <img class="mySlides" src="Images/slider1.jpg">
-                    <img class="mySlides" src="Images/slider2.jpg">
-                    <img class="mySlides" src="Images/slider3.jpg">
                     <img class="mySlides" src="Images/slider4.jpg">
-                    <img class="mySlides" src="Images/slider5.png">
                 </div>
-
+     <h1>Judeh Samir Saba Ibarra</h1> 
                 <div class="w3-col m7">
                     <button onclick="accFunction('Who')" class="w3-button w3-block w3-left-align w3-blue2">
-                        Activista medioambiental</button>
+                        Activismo</button>
                         <div id="Who" class="w3-container w3-hide">
                             <h3>We Are Acme Rock Climbing Bol</h3>
                             <p>Yo Jam, this is a letter to you
@@ -63,7 +67,7 @@
                         </div>
 
                     <button onclick="accFunction('What')" class="w3-button w3-block w3-left-align w3-blue2">
-                        Modelo y Actor</button>
+                        Modelaje y Actuacion</button>
                         <div id="What" class="w3-container w3-hide">
                             <h3>We take you to the next level of adventure!</h3>
                             <p>'Cause it's been a long night and I cry 'cause I miss my brother
@@ -95,11 +99,11 @@
         </div>
     </section>
 
-    <!--GALLERY-->
+    <!--GALLERY
     <section id=gallery class="section">
         <div class="w3-container w3-center">
             <div class="w3-row-padding">
-                <!--I included a video button, my logo, music and text on the videos attached in the Gallery Section. The result was satisfying, the button just calls the user to action (to press it and watch the video).-->
+               
                 <div class="w3-col m3">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/APi_Q6T2xnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
@@ -119,16 +123,7 @@
             </div>
         </div>
     </section>
-
-
-    <!--PACKAGES HEADING-->
-    <SECTION id=packages class="section w3-blue3 w3-hover-opacity">
-        <div class="w3-container w3-center">
-            <h1>Activista Medioambiental, Modelo y Actor</h1> 
-            <p>Nothing on earth consumes a man more quickly than the passion of resentment</p>
-        </div>
-        </SECTION>
-
+-->
     <!-- PACKAGES -->
     <section class="section w3-light-grey">
         <div class="w3-container w3-center">
@@ -208,6 +203,57 @@
     <footer class="w3-blue w3-padding-large w3-center">
             <p>Climbing Adventures &copy; 2023</p>
     </footer>
+    
+
+    <h2>Responsive Image Gallery</h2>
+
+    <h4>Resize the browser window to see the effect.</h4>
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="Images/slider1.jpg">
+          <img src="Images/slider4.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+    
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="Images/slider2.JPG">
+          <img src="Images/slider2.JPG" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="Images/slider3.jpg">
+          <img src="Images/slider3.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="Images/slider4.jpg">
+          <img src="Images/slider1.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+
+    
+    
+    <div class="clearfix"></div>
+    
+    <div style="padding:6px;">
+      <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+      <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+    </div>
 
 </body>
 </html>
